@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const weatherKey = "12f13014aabe412eb2f171032232309"
+const weatherKey = "xxxxxxxxx"
 
 const forcastEndPoint = params => `https://api.weatherapi.com/v1/forecast.json?key=${weatherKey}&q=${params.cityName}&days=${params.days}&aqi=no&alerts=no`
 
